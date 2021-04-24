@@ -10,6 +10,8 @@ In some cases, it isn't possible to gather enough data to train one's models on 
 
 [View chest-xray-pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
+![dataset-xray](https://user-images.githubusercontent.com/9435427/115974066-e5e44680-a50e-11eb-9915-b4a9d3101b01.png)
+
 ---
 
 ### This repository contains the following notebooks:
@@ -20,6 +22,10 @@ The CNN uses transfer learning from the ResNeXt-50 (32x4d) model with an Adam op
 
 
 __GAN__: This is a generative adversarial network utilizing the Adam optimizer. It takes in 128x128x1 Tensors (128x128px single-channel images) and trains the generator and disriminator. This is used to generate augmented images of chest x-ray scans which we use to see if it improves a convolutional neural network  in identifying whether a patient has pneumonia.
+
+Below are 3 images that the generator from the GAN created:
+
+![dataset-xray-group](https://user-images.githubusercontent.com/9435427/115974069-ee3c8180-a50e-11eb-81f2-1f8da7da8582.png)
 
 
 __Transformation__: This is a simple notebook that applies simple transformations to the original dataset. This will be used to help prevent overfitting and promote generalization. 
