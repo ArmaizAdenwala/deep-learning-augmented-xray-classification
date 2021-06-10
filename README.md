@@ -1,7 +1,6 @@
 # deep-learning-augmented-xray-classification
-_This repo contains Jupyter notebooks that I created while working on a group paper to determine if data augmentation improves chest x-ray classification accuracy_
+_This repo contains Jupyter notebooks that I created while working on a group paper for CSC177 to determine if data augmentation improves chest x-ray classification accuracy_
 
-Paper is WIP
 
 ---
 
